@@ -1,22 +1,13 @@
 {
+    "extends": "../tsconfig.react.json",
     "compilerOptions": {
-      "baseUrl": "./packages",
-      "paths": {
-        "@doar/*": ["./*/src/"]
-      },
-      "jsx": "react",
-      "module": "CommonJS",
-      "composite": true,
-      "target": "ES2018",
-      "strict": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
-      "noImplicitReturns": true,
-      "declaration": true,
-      "skipLibCheck": true,
-      "allowJs": false,
-      "checkJs": false,
-      "strictNullChecks" : false
+        "baseUrl": ".",
+        "composite": true,
+        "noFallthroughCasesInSwitch": true,
+        "jsx": "react-jsx",
+        "outDir": "dist",
+        "rootDir": ".",
+        "noEmit": true,
     },
-    "exclude": ["node_modules", "docs", "stories", "__tests__"]
+    "include": [".", "src", "src/*", "config-overrides.js"]
 }
