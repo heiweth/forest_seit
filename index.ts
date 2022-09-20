@@ -1,16 +1,16 @@
 import ApexCharts from "apexcharts";
-import { Button } from "./src/ui/button/button";
-import { Alert } from "./src/ui/alert/alert";
-import { Anchor } from "./src/ui/anchor";
-import { Navbar } from "./src/ui/navbar/navbar";
-import { Avatar, AvatarInitial } from "./src/ui/avatar/avatar";
+import { Button } from "./ui/button/button";
+import { Alert } from "./ui/alert/alert";
+import { Anchor } from "./ui/anchor";
+import { Navbar } from "./ui/navbar/navbar";
+import { Avatar, AvatarInitial } from "./ui/avatar/avatar";
 import {
     Dropdown,
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
     DropdownDivider,
-} from "./src/ui/dropdown/dropdown";
+} from "./ui/dropdown/dropdown";
 import {
     Card,
     CardImage,
@@ -25,10 +25,9 @@ import {
     CardGroup,
     CardDeck,
     CardColumns,
-} from "./src/ui/card/card";
-import { Media, MediaLeft, MediaBody } from "./src/ui/media/media";
-import { Breadcrumb, BreadcrumbItem } from "./src/ui/breadcrumb/breadcrumb";
-import { Container, Row, Col } from "./src/grid/grid";
+} from "./ui/card/card";
+import { Media, MediaLeft, MediaBody } from "./ui/media/media";
+import { Breadcrumb, BreadcrumbItem } from "./ui/breadcrumb/breadcrumb";
 import {
     ApexBarChart,
     ApexLineChart,
@@ -36,28 +35,20 @@ import {
     ApexPieChart,
     ApexDonutChart,
     ApexRadialChart,
-} from "./src/charts/apexchart/apexchart";
-import {
-    SparklinesBar,
-    SparklinesLines,
-} from "./src/charts/sparkline/sparkline";
+} from "./charts/apexchart/apexchart";
 import {
     BarChart,
     HorizontalBarChart,
     LineChart,
     PieChart,
     DonutChart,
-} from "./src/charts/chart-js/chart-js";
-import { GoogleMap, GoogleMapMarker } from "./src/maps/google-map/google-map";
-import {
-    LeafletMap,
-    LeafletMarker,
-    LeafletPopup,
-} from "./src/maps/leaflet-map/leaflet-map";
-import { VectorMap } from "./src/maps/vector-map/vector-map";
-import { Table } from "./src/ui/table/table";
-import { ButtonGroup, ButtonToolbar } from "./src/ui/button-group/button-group";
-import { ListGroup, ListGroupItem } from "./src/ui/list-group/list-group";
+} from "./charts/chart-js/chart-js";
+import { SparklinesBar, SparklinesLines } from "./charts/sparkline/sparkline";
+import { Container, Row, Col } from "./grid/grid";
+import { VectorMap } from "./maps/vector-map/vector-map";
+import { Table } from "./ui/table/table";
+import { ButtonGroup, ButtonToolbar } from "./ui/button-group/button-group";
+import { ListGroup, ListGroupItem } from "./ui/list-group/list-group";
 import {
     Input,
     Checkbox,
@@ -66,19 +57,19 @@ import {
     Textarea,
     Label,
     FormGroup,
-} from "./src/forms/form-elements";
+} from "./forms/form-elements";
 import {
     InputGroup,
     InputGroupAddon,
     InputGroupText,
-} from "./src/forms/input-group/input-group";
-import { Progress } from "./src/ui/progress/progress";
-import SectionTitle from "./src/ui/section-title";
-import Text from "./src/ui/text";
-import Heading from "./src/ui/heading";
-import HRLine from "./src/ui/hr-line";
-import { Image, ImageGroup } from "./src/ui/image/image";
-import { Badge } from "./src/ui/badge/badge";
+} from "./forms/input-group/input-group";
+import { Progress } from "./ui/progress/progress";
+import SectionTitle from "./ui/section-title";
+import Text from "./ui/text";
+import Heading from "./ui/heading";
+import HRLine from "./ui/hr-line";
+import { Image, ImageGroup } from "./ui/image/image";
+import { Badge } from "./ui/badge/badge";
 import {
     Modal,
     ModalHeader,
@@ -86,12 +77,12 @@ import {
     ModalClose,
     ModalBody,
     ModalFooter,
-} from "./src/ui/modal/modal";
-import { TabWrap, TabContent, Tab, TabPanel, TabList } from "./src/ui/tab/tab";
-import { Spinner } from "./src/ui/spinner/spinner";
-import { Nav, NavLink, NavDivider } from "./src/ui/nav/nav";
+} from "./ui/modal/modal";
+import { TabWrap, TabContent, Tab, TabPanel, TabList } from "./ui/tab/tab";
+import { Spinner } from "./ui/spinner/spinner";
+import { Nav, NavLink, NavDivider } from "./ui/nav/nav";
 
-export { default as NavbarAside } from "./src/ui/navbar-aside";
+export { default as NavbarAside } from "./ui/navbar-aside";
 
 export {
     Button,
@@ -123,9 +114,6 @@ export {
     MediaBody,
     Breadcrumb,
     BreadcrumbItem,
-    Container,
-    Row,
-    Col,
     ApexCharts,
     ApexBarChart,
     ApexLineChart,
@@ -133,18 +121,16 @@ export {
     ApexPieChart,
     ApexDonutChart,
     ApexRadialChart,
-    SparklinesBar,
-    SparklinesLines,
     BarChart,
     HorizontalBarChart,
     LineChart,
     PieChart,
     DonutChart,
-    GoogleMap,
-    GoogleMapMarker,
-    LeafletMap,
-    LeafletMarker,
-    LeafletPopup,
+    SparklinesBar,
+    SparklinesLines,
+    Container,
+    Row,
+    Col,
     VectorMap,
     Table,
     ButtonGroup,
